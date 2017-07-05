@@ -2,11 +2,13 @@
 //  AppDelegate.swift
 //  Hackathon
 //
-//  Created by Anshula Singh on 7/5/17.
-//  Copyright © 2017 Anshula Singh. All rights reserved.
+//  Created by Linglong Wang on 7/5/17.
+//  Copyright © 2017 Connar Wang. All rights reserved.
 //
 
 import UIKit
+import GooglePlaces
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        GMSPlacesClient.provideAPIKey("AIzaSyDxTmN_EbGufJeijjas8RBEcOOY2G3EEc0")
+        GMSServices.provideAPIKey("AIzaSyDxTmN_EbGufJeijjas8RBEcOOY2G3EEc0")
         return true
     }
 

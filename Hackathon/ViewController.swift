@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Hackathon
 //
-//  Created by Anshula Singh on 7/5/17.
-//  Copyright © 2017 Anshula Singh. All rights reserved.
+//  Created by Linglong Wang on 7/5/17.
+//  Copyright © 2017 Connar Wang. All rights reserved.
 //
 
 import UIKit
