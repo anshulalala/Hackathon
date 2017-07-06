@@ -12,6 +12,9 @@
 		811A80301F0D4D97003BC36E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811A802E1F0D4D97003BC36E /* Main.storyboard */; };
 		811A80321F0D4D97003BC36E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811A80311F0D4D97003BC36E /* Assets.xcassets */; };
 		811A80351F0D4D97003BC36E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811A80331F0D4D97003BC36E /* LaunchScreen.storyboard */; };
+		8ADDDC411F0EBDFF00632C22 /* MapBG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADDDC401F0EBDFF00632C22 /* MapBG.swift */; };
+		8ADDDC431F0ED53500632C22 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADDDC421F0ED53500632C22 /* Network.swift */; };
+		8ADDDC451F0EE93400632C22 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADDDC441F0EE93400632C22 /* JsonParser.swift */; };
 		EC04EFDC206AE289D0887BB8 /* Pods_Hackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575F43C38C9C5CA9741D6AF4 /* Pods_Hackathon.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +29,9 @@
 		811A80311F0D4D97003BC36E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		811A80341F0D4D97003BC36E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		811A80361F0D4D97003BC36E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ADDDC401F0EBDFF00632C22 /* MapBG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapBG.swift; sourceTree = "<group>"; };
+		8ADDDC421F0ED53500632C22 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		8ADDDC441F0EE93400632C22 /* JsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 			children = (
 				811A802A1F0D4D97003BC36E /* AppDelegate.swift */,
 				811A802C1F0D4D97003BC36E /* ViewController.swift */,
+				8ADDDC401F0EBDFF00632C22 /* MapBG.swift */,
+				8ADDDC421F0ED53500632C22 /* Network.swift */,
+				8ADDDC441F0EE93400632C22 /* JsonParser.swift */,
 				811A802E1F0D4D97003BC36E /* Main.storyboard */,
 				811A80311F0D4D97003BC36E /* Assets.xcassets */,
 				811A80331F0D4D97003BC36E /* LaunchScreen.storyboard */,
@@ -212,6 +221,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				811A802D1F0D4D97003BC36E /* ViewController.swift in Sources */,
+				8ADDDC451F0EE93400632C22 /* JsonParser.swift in Sources */,
+				8ADDDC411F0EBDFF00632C22 /* MapBG.swift in Sources */,
+				8ADDDC431F0ED53500632C22 /* Network.swift in Sources */,
 				811A802B1F0D4D97003BC36E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +388,7 @@
 				811A803B1F0D4D97003BC36E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
