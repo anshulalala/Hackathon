@@ -47,7 +47,7 @@ class Network {
                 }
                 
                 // this will execute if there's no error
-                
+                JsonParser.parse(data: data!)
             })
             
             dataTask.resume()
